@@ -19,10 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/appartment">Appartment Regression</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/mnist">Number Classification</a>
+            <a class="nav-link" href="/appartment">Car Prediction</a>
           </li>
         </ul>
       </div>
