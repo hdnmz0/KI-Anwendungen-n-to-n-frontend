@@ -73,11 +73,11 @@
 </script>
 
 <div class="container text-center">
-    <h1>Auto Preis Vorhersage</h1>
+    <h1>Price Prediction</h1>
     <br />
-    <p>
-        Bitte geben Sie das Modell, die Kilometer und das Baujahr des Autos ein.
-    </p>
+    <div class="text-content">
+        Please enter the model, mileage, and year of manufacture of the car.
+      </div>
     <div class="row container text-center">
         <div class="d-flex justify-content-center">
             <table class="table table-borderless" style="width: 500px;">
@@ -157,10 +157,19 @@
     }
 
     h1 {
-        color: #444;
+       font-family: "Helvetica", sans-serif;
+        font-size: 4em;
+        font-weight: bold;
+        color: #0b3847;
         text-align: center;
-        margin-bottom: 1em;
     }
+
+ text-content {
+        font-size: 2em;
+  	color: #555;
+  	text-align: center;
+    }
+
 
     table {
         width: 100%;
