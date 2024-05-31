@@ -138,7 +138,7 @@
             <button
                 type="button"
                 class="btn btn-primary"
-                on:click={predictPrice}>Preis vorhersagen</button
+                on:click={predictPrice}>Predict</button
             >
         </div>
     </div>
@@ -201,7 +201,7 @@
     }
 
     button:hover {
-        background-color: #2980b9;
+        background-color: #0b2739;
     }
 </style>
 
