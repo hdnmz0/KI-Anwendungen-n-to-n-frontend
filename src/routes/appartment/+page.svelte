@@ -1,6 +1,7 @@
 <script>
-    import { PUBLIC_BASE_URL } from '$env/static/public';
  	import axios from "axios";
+
+	const base_url = "http://hdnmz.pythonanywhere.com";
 
 	 let ergebnis = false;
     let model = "";
