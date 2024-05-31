@@ -4,7 +4,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">KI-Anwendung Demo</a>
+      <a class="navbar-brand" href="/">KI-A Project 1</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/appartment">Car Prediction</a>
+            <a class="nav-link" href="/appartment">Price Prediction</a>
           </li>
         </ul>
       </div>
