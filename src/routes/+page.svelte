@@ -1,2 +1,21 @@
-<h1>Welcome to the demo project</h1>
-<p>This demo shows use cases of simple "KI-Anwendungen".</p>
+<div class="greeting">Mercedes-Benz</div>
+<div class="text-content">
+  Prediction
+</div>
+
+<style>
+.greeting {
+  font-family: "Helvetica", sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: #0b3847;
+  text-align: center;
+}
+
+.text-content {
+  font-size: 2em;
+  color: #555;
+  text-align: center;
+}
+
+</style>
