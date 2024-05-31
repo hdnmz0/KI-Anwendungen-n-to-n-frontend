@@ -2,7 +2,7 @@
 
  	import axios from "axios";
 
-const url = "http://hdnmz.pythonanywhere.com/api/prediction/car?model=2&kilometers=10000&year=2011";
+const url = "http://hdnmz.pythonanywhere.com;
 
 fetch(url, {
     method: 'GET',
