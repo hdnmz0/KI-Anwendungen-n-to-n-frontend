@@ -2,7 +2,21 @@
 
  	import axios from "axios";
 
-const base_url = "http://hdnmz.pythonanywhere.com";
+const url = "http://hdnmz.pythonanywhere.com/api/prediction/car?model=2&kilometers=10000&year=2011";
+
+fetch(url, {
+    method: 'GET',
+    headers: {
+        'Content-Type': 'application/json'
+    }
+})
+.then(response => response.json())
+.then(data => {
+    console.log(data);
+})
+.catch(error => {
+    console.error('Error:', error);
+});
 
 
 	 let ergebnis = false;
