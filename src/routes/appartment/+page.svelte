@@ -1,22 +1,6 @@
 <script>
-
+  import { PUBLIC_BASE_URL } from '$env/static/public';
  	import axios from "axios";
-
-const url = "http://hdnmz.pythonanywhere.com";
-
-fetch(url, {
-    method: 'GET',
-    headers: {
-        'Content-Type': 'application/json'
-    }
-})
-.then(response => response.json())
-.then(data => {
-    console.log(data);
-})
-.catch(error => {
-    console.error('Error:', error);
-});
 
 
 	 let ergebnis = false;
