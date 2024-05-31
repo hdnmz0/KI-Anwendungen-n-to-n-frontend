@@ -35,7 +35,7 @@
         }
 
         let url =
-            base_url +
+           PUBLIC_BASE_URL +
             "/api/prediction/car?model=" +
             model.id +
             "&kilometers=" +
