@@ -162,7 +162,7 @@ fetch(url, {
         <p>Der vorhergesagte Preis ist: CHF {predicted_price}</p>
         <p>Zufriedenheit: {satisfaction}</p>
     {/if}
-
+  </div>
     
 
 <style>
