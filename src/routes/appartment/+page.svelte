@@ -83,10 +83,10 @@
             <table class="table table-borderless" style="width: 500px;">
                 <thead>
                     <tr>
-                        <th scope="col">Modell</th>
-                        <th scope="col">Kilometer</th>
-                        <th scope="col">Baujahr</th>
-                        <th scope="col">Gewünschter Preis</th>
+                        <th scope="col">Model</th>
+                        <th scope="col">Mileage</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Desired Price</th>
                     </tr>
                 </thead>
                 <tbody>
