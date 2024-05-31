@@ -2,7 +2,7 @@
 
  	import axios from "axios";
 
-const url = "http://hdnmz.pythonanywhere.com;
+const url = "http://hdnmz.pythonanywhere.com";
 
 fetch(url, {
     method: 'GET',
