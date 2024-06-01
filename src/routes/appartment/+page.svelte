@@ -76,7 +76,7 @@
     <h1>Price Prediction</h1>
     <br />
     <div class="text-content">
-        for the prediction, enter the model, mileage, and year of the car! 😎👍
+        for the prediction, enter the model, mileage and year of the car! 😎👍
       </div>
     <div class="row container text-center">
         <div class="d-flex justify-content-center">
