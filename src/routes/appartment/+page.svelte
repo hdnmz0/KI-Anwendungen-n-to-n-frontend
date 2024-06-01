@@ -56,7 +56,7 @@
         } else if (predicted_price < desired_price) {
             satisfaction = "Satisfied!";
         } else {
-            satisfaction = "Unsatisfied";
+            satisfaction = "Unsatisfied :(";
         }
     }
 
@@ -76,7 +76,7 @@
     <h1>Price Prediction</h1>
     <br />
     <div class="text-content">
-        Please enter the model, mileage, and year of manufacturing of the car.
+        Enter the model, mileage, and year of manufacturing of the car!
       </div>
     <div class="row container text-center">
         <div class="d-flex justify-content-center">
@@ -144,10 +144,10 @@
     </div>
     {#if ergebnis}
          <div class="text-content">
-            Der vorhergesagte Preis ist: CHF {predicted_price}
+            The predicted price: CHF {predicted_price}
           </div>
           <div class="text-content">
-            Zufriedenheit: {satisfaction}
+            Satisfied? {satisfaction}
           </div>
     {/if}
   </div>
