@@ -194,7 +194,7 @@
     button {
         margin-top: 1em;
         padding: 10px 20px;
-        color: #0b2739;
+        color: #fff;
         border: none;
         border-radius: 5px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
