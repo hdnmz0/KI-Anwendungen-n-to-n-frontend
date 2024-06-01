@@ -80,7 +80,7 @@
       </div>
     <div class="row container text-center">
         <div class="d-flex justify-content-center">
-            <table class="table table-borderless" style="width: 500px;">
+            <table class="table table-borderless" style="width: 700px;">
                 <thead>
                     <tr>
                         <th scope="col">Model</th>
@@ -167,7 +167,7 @@
 
  text-content {
         font-size: 2em;
-  	color: #1d5a80;
+  	color: #555;
   	text-align: center;
     }
 
@@ -176,7 +176,7 @@
         width: 100%;
         border-collapse: collapse;
         margin-top: 2em;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: #0b3847;
     }
 
     table th {
