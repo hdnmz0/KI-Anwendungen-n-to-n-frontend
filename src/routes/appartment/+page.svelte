@@ -76,7 +76,7 @@
     <h1>Price Prediction</h1>
     <br />
     <div class="text-content">
-        Enter the model, mileage, and year of manufacturing of the car!
+        for the prediction, enter the model, mileage, and year of the car! 😎👍
       </div>
     <div class="row container text-center">
         <div class="d-flex justify-content-center">
@@ -138,7 +138,7 @@
             <button
                 type="button"
                 class="btn btn-primary"
-                on:click={predictPrice}>Predict</button
+                on:click={predictPrice}>Predict!</button
             >
         </div>
     </div>
