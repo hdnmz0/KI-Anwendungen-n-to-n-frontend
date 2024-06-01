@@ -150,7 +150,6 @@
             Zufriedenheit: {satisfaction}
           </div>
     {/if}
-    {/if}
   </div>
     
 
