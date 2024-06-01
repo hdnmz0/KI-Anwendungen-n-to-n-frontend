@@ -151,10 +151,10 @@
 
 <style>
     .container {
-        max-width: 1200px;
+        max-width: 960px;
         margin: auto;
         padding: 1em;
-	background-color: #1d5a80;
+	
     }
 
     h1 {
@@ -167,7 +167,7 @@
 
  text-content {
         font-size: 2em;
-  	color: #555;
+  	color: #1d5a80;
   	text-align: center;
     }
 
