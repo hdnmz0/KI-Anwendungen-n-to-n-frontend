@@ -25,12 +25,12 @@
 
     function predictPrice() {
         if (year === "") {
-            alert("Bitte wählen Sie ein Baujahr aus.");
+            alert("Please choose a year.");
             return;
         }
 
         if (model === "") {
-            alert("Bitte wählen Sie ein Modell aus.");
+            alert("Please choose a model.");
             return;
         }
 
@@ -52,11 +52,11 @@
 
     function calculateSatisfaction() {
         if (predicted_price === desired_price) {
-            satisfaction = "Zufrieden";
+            satisfaction = "Satisfied";
         } else if (predicted_price < desired_price) {
-            satisfaction = "Zufrieden (🙂)";
+            satisfaction = "Satisfied!";
         } else {
-            satisfaction = "Unzufrieden (☹️)";
+            satisfaction = "Unsatisfied";
         }
     }
 
@@ -66,7 +66,7 @@
             kilometers < 0 ||
             /^0[0-9].*/.test(kilometers)
         ) {
-            alert("Bitte geben Sie eine gültige Kilometerzahl ein.");
+            alert("Please choose a valid kilometers.");
             kilometers = 0;
         }
     }
@@ -76,7 +76,7 @@
     <h1>Price Prediction</h1>
     <br />
     <div class="text-content">
-        Please enter the model, mileage, and year of manufacture of the car.
+        Please enter the model, mileage, and year of manufacturing of the car.
       </div>
     <div class="row container text-center">
         <div class="d-flex justify-content-center">
@@ -93,7 +93,7 @@
                     <tr>
                         <td>
                             <select bind:value={model}>
-                                <option value="">Bitte wählen</option>
+                                <option value="">Choose</option>
                                 {#each model_encoded as model}
                                     <option value={model}>
                                         {model.name}
@@ -112,7 +112,7 @@
                         </td>
                         <td>
                             <select bind:value={year}>
-                                <option value="">Bitte wählen</option>
+                                <option value="">Choose</option>
                                 {#each Array.from({ length: 24 }, (_, i) => 2000 + i) as y}
                                     <option value={y}>{y}</option>
                                 {/each}
@@ -143,17 +143,18 @@
         </div>
     </div>
     {#if ergebnis}
-        <p>Der vorhergesagte Preis ist: CHF {predicted_price}</p>
-        <p>Zufriedenheit: {satisfaction}</p>
+        <p>The predicted price: CHF {predicted_price}</p>
+        <p>Satisfaction: {satisfaction}</p>
     {/if}
   </div>
     
 
 <style>
     .container {
-        max-width: 960px;
+        max-width: 1200px;
         margin: auto;
         padding: 1em;
+	background-color: #1d5a80;
     }
 
     h1 {
@@ -193,7 +194,7 @@
     button {
         margin-top: 1em;
         padding: 10px 20px;
-        color: #fff;
+        color: #0b2739;
         border: none;
         border-radius: 5px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -201,7 +202,7 @@
     }
 
     button:hover {
-        background-color: #0b2739;
+        background-color: #1d5a80;
     }
 </style>
 
