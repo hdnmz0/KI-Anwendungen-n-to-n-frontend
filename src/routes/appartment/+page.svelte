@@ -143,8 +143,13 @@
         </div>
     </div>
     {#if ergebnis}
-        <p>The predicted price: CHF {predicted_price}</p>
-        <p>Satisfaction: {satisfaction}</p>
+         <div class="text-content">
+            Der vorhergesagte Preis ist: CHF {predicted_price}
+          </div>
+          <div class="text-content">
+            Zufriedenheit: {satisfaction}
+          </div>
+    {/if}
     {/if}
   </div>
     
@@ -165,7 +170,7 @@
         text-align: center;
     }
 
- text-content {
+    .text-content {
         font-size: 2em;
   	color: #555;
   	text-align: center;
